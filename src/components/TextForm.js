@@ -43,7 +43,6 @@ export default function TextForm({ heading = "Set Heading Here", showAlert}) {
         <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleUpClicked}>Convert To Uppercase</button>
         <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleLoClicked}>Convert To Lowercase</button>
         <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
-        
     </div>
     <div className="container my-3">
         <h2>Your Text Summery</h2>
